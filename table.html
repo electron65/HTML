@@ -1,0 +1,77 @@
+<p>table is an element used to create a table. Each table is made by a row.
+    which is why we use <acroym title="table row"> tr </acroym>. We put each data in
+    a table data, <acroym title="table data"> td </acroym>.
+</p>
+<table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+</table>
+
+<p><acroym title="table head">th</acroym> is used for table heads. The scope attribute
+is used to indicate a column or a row.</p>
+
+
+<p>The scope attribute is used to indicate whether it is a row or a column</p>
+<table>
+    <tr>
+        <th></th>
+        <th scope="col"> column 1</th>
+        <th scope="col"> column 2</th>
+    </tr>
+    <tr>
+        <th scope="row"> row 1</th>
+        <td>(1,1)</td>
+        <td>(1,2)</td>
+    </tr>
+    <tr>
+        <th scope="row"> row 2</th>
+        <td>(2,1)</td>
+        <td>(2,2)</td>
+    </tr>
+</table>
+
+<p>The heading should be in thead, the body should sit in tbody, and the footer 
+    belongs to tfoot.
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>th1</th>
+            <th>th2</th>
+            <th>th3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>th2</th>
+            <td>td1</td>
+            <td>td2</td>
+        </tr>
+        <tr>
+            <th>th3</th>
+            <td>td1</td>
+            <td>td2</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td>end</td>
+            <td>end</td>
+        </tr>
+    </tfoot>
+</table>
